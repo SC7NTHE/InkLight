@@ -1,0 +1,23 @@
+/* It's made from my simple knowledge. SC7NTHE :) */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Root Variables */
+:root {
+    /* Discord Font */
+    --font-primary: "Noto Sans", sans-serif;
+    --font-primary-weight: 500 !important;
+    --font-display: var(--font-primary) !important;
+}
+
+.theme-dark::selection {
+    /* Highlighter colors - Dark theme */
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.theme-light::selection {
+    /* Highlighter colors - Light theme */
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #000;
+}
